@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  text-align: center;
 }
 
 h1 {
@@ -8,20 +9,90 @@ h1 {
 
 .top-container {
   background-color: #E3FDFD;
+  position: relative;
+  padding-top: 100px;
 }
 
-.middle-container {
+.red-container {
   background-color: red;
-  height: 200px;
-  width: 200px;
+  height: 50px;
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
 }
 
-.bottom-container {
+.blue-container {
   background-color: blue;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px -50px;
+}
+
+.yellow-container {
+  background-color: yellow;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 20px 15px;
+}
+
+.green-container {
+  height: 0;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 70px solid lime;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -120px -50px;
+}
+
+.black-container-1 {
+  background-color: black;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 5px -35px;
+}
+
+.black-container-2 {
+  background-color: black;
+  height: 20px;
+  width: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -35px -37.5px;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#containers {
+  position: relative;
+  padding-top: 500px;
 }
